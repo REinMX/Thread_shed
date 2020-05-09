@@ -153,6 +153,7 @@ for lst in thread_sold:
     else:
       thread_sold_split.append(item)
 
+# Function to count selected color in list 'thread_sold_split'
 def color_count(color):
   color_count = 0
   for x in thread_sold_split:
@@ -160,6 +161,7 @@ def color_count(color):
       color_count += 1
   return color_count
 
+# Print message for counting each color +++++++++++++++++++++++++++++++
 colors = ['red','yellow','green','white','black','blue','purple']
 
 for x in colors:
